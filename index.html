@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Four Digit Number Generator</title>
+  </head>
+  <body>
+    <div>
+        <h1>replace_me</h1>
+    </div>
+    <h1>Four Digit Number Generator</h1>
+    <p>Click the button to generate a new four digit number:</p>
+    <button onclick="generateNumber()">Generate Number</button>
+    <p id="number"></p>
+    <p id="time"></p>
+    <script>
+      function generateNumber() {
+        var number = Math.floor(Math.random() * 10000).toString().padStart(4, '0');
+        document.getElementById("number").innerHTML = number;
+        var time = new Date().toLocaleTimeString();
+        document.getElementById("time").innerHTML = "Last Generated at " + time;
+      }
+    </script>
+  </body>
+</html>
