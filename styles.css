@@ -1,0 +1,35 @@
+/* Set the font size for the body */
+body {
+    font-size: 18px;
+  }
+  
+  /* Style the main heading */
+  h1 {
+    color: #0077cc;
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  /* Style the button */
+  button {
+    background-color: #0077cc;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style the generated number */
+  #number {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Style the timestamp */
+  #time {
+    font-size: 20px;
+    text-align: center;
+  }
